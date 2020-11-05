@@ -1,0 +1,92 @@
+/** @format */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: none;
+  justify-content: space-around;
+
+  background-color: rgba(76, 0, 130, 0.849);
+  font-size: 1.6rem;
+  margin-top: 0;
+
+  transition-duration: 2s;
+}
+
+.child6 {
+  padding: 1.6rem auto;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition-duration: 3s;
+
+  text-decoration: underline;
+  color: rgb(240, 255, 255);
+}
+
+.child6:hover {
+  background-color: rgba(117, 0, 128, 0.733);
+  color: rgba(240, 255, 255, 0.63);
+  transition-duration: 2s;
+}
+
+.child {
+  height: 60px;
+  width: 120px;
+  background-color: rgba(117, 0, 128, 0.733);
+  color: rgba(240, 255, 255, 0.918);
+  margin: 10px 0;
+  transition-duration: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.child:hover {
+  background-color: rgba(117, 0, 128, 0.342);
+  width: 140px;
+  color: rgba(240, 255, 255, 0.452);
+}
+
+/* Show Case */
+
+#showCase,
+#showCase div {
+  margin: 1.8rem;
+  line-height: 1.4;
+}
+
+#showCase h2 {
+  margin: 0.7rem auto;
+  line-height: 1.4;
+
+  cursor: pointer;
+}
+
+#showCase p {
+  display: none;
+  font-size: 1.2rem;
+  transition: 3s ease-out;
+  cursor: pointer;
+}
+
+#showCase span {
+  font-size: 1.4rem;
+}
+
+/* Social Div Buttons Start */
+
+.socialStyles {
+  width: 100%;
+}
+
+/* Social Div Buttons End */

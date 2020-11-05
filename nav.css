@@ -1,0 +1,73 @@
+/** @format */
+/* Nav Design Start */
+nav {
+  background-color: rgba(117, 0, 128, 0.733);
+  padding: 1.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navController ul {
+  display: flex;
+
+  list-style: none;
+}
+
+.navController li {
+  padding-left: 25px;
+}
+
+.navController a {
+  font-size: 1.6rem;
+  color: rgba(240, 255, 255, 0.63);
+  text-decoration: none;
+  padding: 0.4rem;
+
+  border-radius: 8px;
+
+  transition: 1s ease-in;
+}
+
+.navController a:hover {
+  background-color: rgba(117, 0, 128, 0.342);
+}
+
+/* Nav Design End */
+
+/* Follow Button Begin */
+
+#hideButton {
+  background-color: rgba(117, 0, 128, 0.733);
+  color: rgba(240, 255, 255, 0.918);
+
+  cursor: pointer;
+
+  padding: 0.2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+
+  outline: none;
+  box-shadow: 3px 2px 5px;
+
+  transition-duration: 1s;
+}
+
+#hideButton:hover {
+  background-color: rgba(117, 0, 128, 0.267);
+  color: rgba(240, 255, 255, 0.63);
+
+  box-shadow: none;
+}
+
+/* Follow Button End */
+
+/* Footer Design Start */
+
+.footer {
+  text-align: center;
+  background-color: rgba(117, 0, 128, 0.733);
+  color: rgba(240, 255, 255, 0.63);
+  padding: 1.8rem;
+}
+
+/* Footer Design End */
