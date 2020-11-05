@@ -18,6 +18,9 @@
   margin-top: 0;
 
   transition-duration: 2s;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .child6 {
